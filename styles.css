@@ -2,6 +2,7 @@ body {
   color: #40514E;
   margin: 0;
   text-align: center;
+  font-family: 'Sono', sans-serif;
   font-family: verdana, sans-serif;
   font-family: 'Merriweather', serif;
 }
@@ -12,12 +13,13 @@ h1 {
   rem = root em, will ignore parent*/
   margin: 50px auto 0 auto;
   line-height: 2;
-  font-family: 'Sacramento', cursive;
-  color: #66BFBF
+  font-family: 'Sono', sans-serif;
+  color: #66BFBF;
+  position: relative;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sono', sans-serif;
   font-size: 2;
   font-weight: normal;
   padding-bottom: 10px;
@@ -25,30 +27,35 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E
+  font-size: 3.625rem;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+  font-family: 'Sono', sans-serif;
+  color: #11999E;
+
 }
 
 /*link properties*/
 a {
   color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sono', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #000000;
 }
 
 /*Adjusts line height*/
 p {
   line-height: 2;
+  font-size: 20px;
 }
 
 /* HR Settings */
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -65,7 +72,7 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sono', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -175,4 +182,18 @@ hr {
   position: absolute;
   right: 300px;
   top: 50px;
+}
+.table{
+margin: auto;
+font-size: 20px;
+}
+.img{
+  margin: auto;
+  padding: auto;
+}
+ul {
+  font-size: 20px;
+}
+ol {
+  font-size: 20px;
 }
